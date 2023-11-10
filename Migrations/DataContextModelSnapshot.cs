@@ -36,7 +36,7 @@ namespace PokemonInfo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("PokemonInfo.Models.Country", b =>
@@ -53,7 +53,7 @@ namespace PokemonInfo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Countries");
+                    b.ToTable("Countries", (string)null);
                 });
 
             modelBuilder.Entity("PokemonInfo.Models.Owner", b =>
@@ -83,7 +83,7 @@ namespace PokemonInfo.Migrations
 
                     b.HasIndex("CountryId");
 
-                    b.ToTable("Owner");
+                    b.ToTable("Owner", (string)null);
                 });
 
             modelBuilder.Entity("PokemonInfo.Models.Pokemon", b =>
@@ -103,7 +103,7 @@ namespace PokemonInfo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Pokemons");
+                    b.ToTable("Pokemons", (string)null);
                 });
 
             modelBuilder.Entity("PokemonInfo.Models.PokemonCategory", b =>
@@ -118,7 +118,7 @@ namespace PokemonInfo.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("PokemonCategories");
+                    b.ToTable("PokemonCategories", (string)null);
                 });
 
             modelBuilder.Entity("PokemonInfo.Models.PokemonOwner", b =>
@@ -133,7 +133,7 @@ namespace PokemonInfo.Migrations
 
                     b.HasIndex("OwnerId");
 
-                    b.ToTable("PokemonOwners");
+                    b.ToTable("PokemonOwners", (string)null);
                 });
 
             modelBuilder.Entity("PokemonInfo.Models.Review", b =>
@@ -167,7 +167,7 @@ namespace PokemonInfo.Migrations
 
                     b.HasIndex("ReviewerId");
 
-                    b.ToTable("Reviews");
+                    b.ToTable("Reviews", (string)null);
                 });
 
             modelBuilder.Entity("PokemonInfo.Models.Reviewer", b =>
@@ -188,7 +188,7 @@ namespace PokemonInfo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Reviewers");
+                    b.ToTable("Reviewers", (string)null);
                 });
 
             modelBuilder.Entity("PokemonInfo.Models.Owner", b =>

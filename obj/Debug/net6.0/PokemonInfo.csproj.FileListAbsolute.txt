@@ -80,3 +80,5 @@
 /Users/purvaingle/Keck/PokemonInfo/obj/Debug/net6.0/PokemonInfo.pdb
 /Users/purvaingle/Keck/PokemonInfo/obj/Debug/net6.0/PokemonInfo.genruntimeconfig.cache
 /Users/purvaingle/Keck/PokemonInfo/obj/Debug/net6.0/ref/PokemonInfo.dll
+/Users/purvaingle/Keck/PokemonInfo/bin/Debug/net6.0/AutoMapper.dll
+/Users/purvaingle/Keck/PokemonInfo/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

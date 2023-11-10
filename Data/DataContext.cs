@@ -10,7 +10,7 @@ namespace PokemonInfo.Data
 
         public DbSet<Category> Categories { get; set;}
         public DbSet<Country> Countries {get;set;}
-
+        public DbSet<Owner> Owner { get; set; }
         public DbSet<Pokemon> Pokemons { get; set; }
         public DbSet<PokemonOwner>  PokemonOwners{ get; set; }
 
